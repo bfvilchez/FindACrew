@@ -56,15 +56,63 @@
 		DD56ED2B243B8F1F00F04141 /* FindACrew */ = {
 			isa = PBXGroup;
 			children = (
-				DD56ED2C243B8F1F00F04141 /* AppDelegate.swift */,
-				DD56ED2E243B8F1F00F04141 /* SceneDelegate.swift */,
-				DD56ED30243B8F1F00F04141 /* ViewController.swift */,
-				DD56ED32243B8F1F00F04141 /* Main.storyboard */,
-				DD56ED35243B8F2000F04141 /* Assets.xcassets */,
-				DD56ED37243B8F2000F04141 /* LaunchScreen.storyboard */,
-				DD56ED3A243B8F2000F04141 /* Info.plist */,
+				DD56ED46243B8FE900F04141 /* View Controllers */,
+				DD56ED45243B8FE300F04141 /* Controllers */,
+				DD56ED44243B8FDC00F04141 /* Views */,
+				DD56ED42243B8FBE00F04141 /* Models */,
+				DD56ED41243B8FB500F04141 /* Storyboards */,
+				DD56ED40243B8F9300F04141 /* Supporting FIles */,
 			);
 			path = FindACrew;
+			sourceTree = "<group>";
+		};
+		DD56ED40243B8F9300F04141 /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				DD56ED35243B8F2000F04141 /* Assets.xcassets */,
+				DD56ED3A243B8F2000F04141 /* Info.plist */,
+				DD56ED2C243B8F1F00F04141 /* AppDelegate.swift */,
+				DD56ED2E243B8F1F00F04141 /* SceneDelegate.swift */,
+			);
+			path = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		DD56ED41243B8FB500F04141 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DD56ED32243B8F1F00F04141 /* Main.storyboard */,
+				DD56ED37243B8F2000F04141 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DD56ED42243B8FBE00F04141 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD56ED44243B8FDC00F04141 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD56ED45243B8FE300F04141 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DD56ED46243B8FE900F04141 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD56ED30243B8F1F00F04141 /* ViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
