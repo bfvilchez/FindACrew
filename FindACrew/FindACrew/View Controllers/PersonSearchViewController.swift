@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PersonSearchViewController.swift
 //  FindACrew
 //
 //  Created by brian vilchez on 4/6/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PersonSearchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
